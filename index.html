@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnakFilms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">  
+    <link rel="icon" href="carrete-de-pelicula.png" type="image/png">
+  </head>
+<body>
+<header>
+  <a name="inicio"></a>
+    <div class="navbar">
+        <div class="logo"><a href="index.html">Todo Sobre Peliculas</a></div>
+        <ul class="links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#peliculas">Contenido</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="login.html" class="action_btn" target="_blank">Logueate</a>
+        <a href="register.html" class="action_btn">Regístrate</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="dropdown_menu">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#peliculas">Contenido</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="login.html" class="action_btn">Logueate</a></li>
+        <li><a href="register.html" class="action_btn">Regístrate</a></li>
+      </ul>
+    </div>
+</header>
+
+<main>
+    <section id="hero">
+        <h1>ANAKFILM´s</h1>
+        <p>
+            Disfruta del sitio web con resúmenes y reseñas
+        </p>
+    </section>
+<!-- INTERESTELLAR -->
+<div class="container" >
+  <div class="card" id="interestellar_card">
+       <img src="interestellar.jpg" alt="poster interestellar" class="card_img">
+       <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+       <div class="card_content">
+          <h2>INTERESTELLAR</h2>
+          <form>
+              <p class="clasificacion">
+                <input id="radio1_interestellar" type="radio" name="estrellas" value="5">
+                <label for="radio1_interestellar">★</label>
+                <input id="radio2_interestellar" type="radio" name="estrellas" value="4">
+                <label for="radio2_interestellar">★</label>
+                <input id="radio3_interestellar" type="radio" name="estrellas" value="3">
+                <label for="radio3_interestellar">★</label>
+                <input id="radio4_interestellar" type="radio" name="estrellas" value="2">
+                <label for="radio4_interestellar">★</label>
+                <input id="radio5_interestellar" type="radio" name="estrellas" value="1">
+                <label for="radio5_interestellar">★</label>
+              </p>
+            </form>
+          <a href="infointerestellar.html" class="sinopsis" target="_blank"> 
+          <P>
+              
+En un futuro distópico, la humanidad busca un nuevo hogar en el espacio mientras un equipo de exploradores liderado por Cooper busca salvar a la Tierra y descifrar los secretos de agujeros de gusano.
+          </P>
+          </a>
+       </div>
+  </div>
+  <!-- MEMENTO -->
+  <div class="card" id="memento_card">
+      <img src="Memento.jpg" alt="poster memento" class="card_img">
+      <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+      <div class="card_content">
+         <h2>MEMENTO</h2>
+         <form>
+             <p class="clasificacion">
+               <input id="radio11_memento" type="radio" name="estrellas" value="5">
+               <label for="radio11_memento">★</label>
+               <input id="radio22_memento" type="radio" name="estrellas" value="4">
+               <label for="radio22_memento">★</label>
+               <input id="radio33_memento" type="radio" name="estrellas" value="3">
+               <label for="radio33_memento">★</label>
+               <input id="radio44_memento" type="radio" name="estrellas" value="2">
+               <label for="radio44_memento">★</label>
+               <input id="radio55_memento" type="radio" name="estrellas" value="1">
+               <label for="radio55_memento">★</label>
+             </p>
+           </form>
+        <a href="infomemento.html" class="sinopsis" target="_blank"> 
+         <P> 
+Un hombre con amnesia anterógrada intenta vengar la muerte de su esposa mientras lucha por retener recuerdos temporales fragmentados, desenredando una trama de engaño y traición en orden cronológico inverso.
+         </P>
+        </a>
+      </div>
+      <a name="peliculas"></a>
+ </div>
+
+<!-- RETORNO DEL JEDI -->
+<div class="card" id="retornoJedi_card">
+  <img src="retornoJedi.webp" alt="poster retorno de jedi" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>EL RETORNO DEL JEDI</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio111_retornoJedi" type="radio" name="estrellas" value="5">
+           <label for="radio111_retornoJedi">★</label>
+           <input id="radio222_retornoJedi" type="radio" name="estrellas" value="4">
+           <label for="radio222_retornoJedi">★</label>
+           <input id="radio333_retornoJedi" type="radio" name="estrellas" value="3">
+           <label for="radio333_retornoJedi">★</label>
+           <input id="radio444_retornoJedi" type="radio" name="estrellas" value="2">
+           <label for="radio444_retornoJedi">★</label>
+           <input id="radio555_retornoJedi" type="radio" name="estrellas" value="1">
+           <label for="radio555_retornoJedi">★</label>
+         </p>
+       </form>
+       <a href="infojedi.html" class="sinopsis" target="_blank"> 
+       <P>
+         Una batalla épica entre las fuerzas del bien y del mal culmina en la confrontación final entre Luke Skywalker y Darth Vader.
+     </P>
+     </a>
+  </div>
+</div>
+<!-- SHUTTER ISLAND -->
+<div class="card" id="shutterIsland_card">
+  <img src="shutterisland.jpg" alt="poster shutterisland" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>SHUTTER ISLAND</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_shutterIsland" type="radio" name="estrellas" value="5">
+           <label for="radio1_shutterIsland">★</label>
+           <input id="radio2_shutterIsland" type="radio" name="estrellas" value="4">
+           <label for="radio2_shutterIsland">★</label>
+           <input id="radio3_shutterIsland" type="radio" name="estrellas" value="3">
+           <label for="radio3_shutterIsland">★</label>
+           <input id="radio4_shutterIsland" type="radio" name="estrellas" value="2">
+           <label for="radio4_shutterIsland">★</label>
+           <input id="radio5_shutterIsland" type="radio" name="estrellas" value="1">
+           <label for="radio5_shutterIsland">★</label>
+         </p>
+       </form>
+       <a href="infoshutter.html" class="sinopsis" target="_blank"> 
+       <P>
+         Dos agentes federales investigan la desaparición de una paciente en un hospital psiquiátrico remoto, pero descubren mucho más de lo que esperaban.
+     </P>
+       </a>
+  </div>
+</div>
+<!-- FORREST GUMP -->
+<div class="card" id="forrest_gump_card">
+  <img src="forrest.jpeg" alt="poster forrest gump" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>FORREST GUMP</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_forrest_gump" type="radio" name="estrellas" value="5">
+           <label for="radio1_forrest_gump">★</label>
+           <input id="radio2_forrest_gump" type="radio" name="estrellas" value="4">
+           <label for="radio2_forrest_gump">★</label>
+           <input id="radio3_forrest_gump" type="radio" name="estrellas" value="3">
+           <label for="radio3_forrest_gump">★</label>
+           <input id="radio4_forrest_gump" type="radio" name="estrellas" value="2">
+           <label for="radio4_forrest_gump">★</label>
+           <input id="radio5_forrest_gump" type="radio" name="estrellas" value="1">
+           <label for="radio5_forrest_gump">★</label>
+         </p>
+       </form>
+       <a href="infoforrest.html" class="sinopsis" target="_blank">   
+     <P>
+         Forrest Gump, un hombre con discapacidad intelectual, vive una vida extraordinaria que lo lleva a través de varias décadas y eventos históricos importantes.
+     </P>
+       </a>
+  </div>
+</div>
+<!-- CIUDAD DE DIOS -->
+<div class="card" id="ciudad_de_dios_card">
+  <img src="ciudaddedios.jpeg" alt="poster ciudad de dios" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>CIUDAD DE DIOS</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_ciudad_de_dios" type="radio" name="estrellas" value="5">
+           <label for="radio1_ciudad_de_dios">★</label>
+           <input id="radio2_ciudad_de_dios" type="radio" name="estrellas" value="4">
+           <label for="radio2_ciudad_de_dios">★</label>
+           <input id="radio3_ciudad_de_dios" type="radio" name="estrellas" value="3">
+           <label for="radio3_ciudad_de_dios">★</label>
+           <input id="radio4_ciudad_de_dios" type="radio" name="estrellas" value="2">
+           <label for="radio4_ciudad_de_dios">★</label>
+           <input id="radio5_ciudad_de_dios" type="radio" name="estrellas" value="1">
+           <label for="radio5_ciudad_de_dios">★</label>
+         </p>
+       </form>
+       <a href="infociudad.html" class="sinopsis" target="_blank"> 
+       <P>
+         En las favelas de Río de Janeiro, dos amigos siguen caminos diferentes: uno se convierte en fotógrafo y el otro en líder de una banda de crimen organizado.
+     </P>
+       </a>
+  </div>
+</div>
+<!-- CIUDADES DE PAPEL -->
+<div class="card" id="ciudades_de_papel_card">
+  <img src="ciudad.jpeg" alt="poster ciudades de papel" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>CIUDADES DE PAPEL</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_ciudades_de_papel" type="radio" name="estrellas" value="5">
+           <label for="radio1_ciudades_de_papel">★</label>
+           <input id="radio2_ciudades_de_papel" type="radio" name="estrellas" value="4">
+           <label for="radio2_ciudades_de_papel">★</label>
+           <input id="radio3_ciudades_de_papel" type="radio" name="estrellas" value="3">
+           <label for="radio3_ciudades_de_papel">★</label>
+           <input id="radio4_ciudades_de_papel" type="radio" name="estrellas" value="2">
+           <label for="radio4_ciudades_de_papel">★</label>
+           <input id="radio5_ciudades_de_papel" type="radio" name="estrellas" value="1">
+           <label for="radio5_ciudades_de_papel">★</label>
+         </p>
+       </form>
+       <a href="infociupapel.html" class="sinopsis" target="_blank"> 
+       <P>
+         Un joven se embarca en un viaje en busca de una chica por la que se obsesiona después de que ella desaparece misteriosamente dejando pistas en su camino.
+     </P>
+       </a>
+  </div>
+</div>
+<!-- TORRENTE -->
+<div class="card" id="torrente_card">
+<img src="torrrente.jpg" alt="poster torrente" class="card_img">
+<ion-icon name="heart-outline" class="card_fav"></ion-icon>
+<div class="card_content">
+   <h2>TORRENTE</h2>
+   <form>
+       <p class="clasificacion">
+         <input id="radio1_torrente" type="radio" name="estrellas" value="5">
+         <label for="radio1_torrente">★</label>
+         <input id="radio2_torrente" type="radio" name="estrellas" value="4">
+         <label for="radio2_torrente">★</label>
+         <input id="radio3_torrente" type="radio" name="estrellas" value="3">
+         <label for="radio3_torrente">★</label>
+         <input id="radio4_torrente" type="radio" name="estrellas" value="2">
+         <label for="radio4_torrente">★</label>
+         <input id="radio5_torrente" type="radio" name="estrellas" value="1">
+         <label for="radio5_torrente">★</label>
+       </p>
+     </form>
+     <a href="infotorrente.html" class="sinopsis" target="_blank"> 
+   <P>
+       Torrente, un policía corrupto y vulgar, se involucra en una trama para acabar con una red de narcotráfico en España.
+   </P>
+     </a>
+</div>
+</div>
+<!-- ROGUE ONE -->
+<div class="card" id="rogue_one_card">
+<img src="rogue.jpeg" alt="poster rogue one" class="card_img">
+<ion-icon name="heart-outline" class="card_fav"></ion-icon>
+<div class="card_content">
+   <h2>ROGUE ONE</h2>
+   <form>
+       <p class="clasificacion">
+         <input id="radio1_rogue_one" type="radio" name="estrellas" value="5">
+         <label for="radio1_rogue_one">★</label>
+         <input id="radio2_rogue_one" type="radio" name="estrellas" value="4">
+         <label for="radio2_rogue_one">★</label>
+         <input id="radio3_rogue_one" type="radio" name="estrellas" value="3">
+         <label for="radio3_rogue_one">★</label>
+         <input id="radio4_rogue_one" type="radio" name="estrellas" value="2">
+         <label for="radio4_rogue_one">★</label>
+         <input id="radio5_rogue_one" type="radio" name="estrellas" value="1">
+         <label for="radio5_rogue_one">★</label>
+       </p>
+     </form>
+     <a href="inforogue.html" class="sinopsis" target="_blank"> 
+   <P>
+       Un grupo de rebeldes se une para robar los planos de la Estrella de la Muerte y así proporcionar esperanza a la Rebelión en su lucha contra el Imperio.
+   </P>
+     </a>
+</div>
+</div>
+<!-- DUNE -->
+<div class="card" id="dune_card">
+  <img src="dune.jpg" alt="poster dune" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>DUNE</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_dune" type="radio" name="estrellas" value="5">
+           <label for="radio1_dune">★</label>
+           <input id="radio2_dune" type="radio" name="estrellas" value="4">
+           <label for="radio2_dune">★</label>
+           <input id="radio3_dune" type="radio" name="estrellas" value="3">
+           <label for="radio3_dune">★</label>
+           <input id="radio4_dune" type="radio" name="estrellas" value="2">
+           <label for="radio4_dune">★</label>
+           <input id="radio5_dune" type="radio" name="estrellas" value="1">
+           <label for="radio5_dune">★</label>
+         </p>
+       </form>
+       <a href="infodune.html" class="sinopsis" target="_blank"> 
+       <P>
+         En un futuro distópico, un joven noble llamado Paul Atreides debe liderar a su pueblo en una lucha épica por el control del recurso más valioso del universo.
+     </P>
+       </a>
+  </div>
+</div>
+<!-- ARRIVAL -->
+<div class="card" id="arrival_card">
+  <img src="ARRIVAL.jpeg" alt="poster arrival" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>ARRIVAL</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_arrival" type="radio" name="estrellas" value="5">
+           <label for="radio1_arrival">★</label>
+           <input id="radio2_arrival" type="radio" name="estrellas" value="4">
+           <label for="radio2_arrival">★</label>
+           <input id="radio3_arrival" type="radio" name="estrellas" value="3">
+           <label for="radio3_arrival">★</label>
+           <input id="radio4_arrival" type="radio" name="estrellas" value="2">
+           <label for="radio4_arrival">★</label>
+           <input id="radio5_arrival" type="radio" name="estrellas" value="1">
+           <label for="radio5_arrival">★</label>
+         </p>
+       </form>
+       <a href="infoarrival.html" class="sinopsis" target="_blank"> 
+       <P>
+         Cuando naves extraterrestres comienzan a aparecer en la Tierra, una lingüista experta es reclutada para descifrar el lenguaje de los visitantes.
+     </P>
+     </a>
+  </div>
+</div>
+
+<!-- CRIANDO RATAS -->
+<div class="card" id="criando_ratas_card">
+  <img src="ratas.jpeg" alt="poster criando ratas" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>CRIANDO RATAS</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_criando_ratas" type="radio" name="estrellas" value="5">
+           <label for="radio1_criando_ratas">★</label>
+           <input id="radio2_criando_ratas" type="radio" name="estrellas" value="4">
+           <label for="radio2_criando_ratas">★</label>
+           <input id="radio3_criando_ratas" type="radio" name="estrellas" value="3">
+           <label for="radio3_criando_ratas">★</label>
+           <input id="radio4_criando_ratas" type="radio" name="estrellas" value="2">
+           <label for="radio4_criando_ratas">★</label>
+           <input id="radio5_criando_ratas" type="radio" name="estrellas" value="1">
+           <label for="radio5_criando_ratas">★</label>
+         </p>
+       </form>
+       <a href="infocriando.html" class="sinopsis" target="_blank"> 
+       <P>
+         Un adolescente marginado encuentra su lugar en una pandilla de crímenes juveniles, pero las cosas toman un giro oscuro cuando la violencia se intensifica.
+     </P>
+       </a>
+  </div>
+  </div>
+  <!-- MALDITOS BASTARDOS -->
+<div class="card" id="malditos_bastardos_card">
+  <img src="malditos.jpeg" alt="poster malditos bastardos" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>MALDITOS BASTARDOS</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_malditos_bastardos" type="radio" name="estrellas" value="5">
+           <label for="radio1_malditos_bastardos">★</label>
+           <input id="radio2_malditos_bastardos" type="radio" name="estrellas" value="4">
+           <label for="radio2_malditos_bastardos">★</label>
+           <input id="radio3_malditos_bastardos" type="radio" name="estrellas" value="3">
+           <label for="radio3_malditos_bastardos">★</label>
+           <input id="radio4_malditos_bastardos" type="radio" name="estrellas" value="2">
+           <label for="radio4_malditos_bastardos">★</label>
+           <input id="radio5_malditos_bastardos" type="radio" name="estrellas" value="1">
+           <label for="radio5_malditos_bastardos">★</label>
+         </p>
+       </form>
+       <a href="infomalditos.html" class="sinopsis" target="_blank"> 
+       <P>
+
+      "Malditos Bastardos", dirigida por Quentin Tarantino, es un audaz relato que reimagina la Segunda Guerra Mundial desde una perspectiva única y violenta, donde un grupo de soldados aliados judíos y un coronel alemán conspiran para llevar a cabo un plan de venganza contra altos oficiales nazis.
+    </P>
+       </a>
+  </div>
+</div>
+<!-- SOCIEDAD DE LA NIEVE -->
+<div class="card" id="sociedad_de_la_nieve_card">
+  <img src="sociedad.jpeg" alt="poster la sociedad de la nieve" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>LA SOCIEDAD DE LA NIEVE</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_sociedad_de_la_nieve" type="radio" name="estrellas" value="5">
+           <label for="radio1_sociedad_de_la_nieve">★</label>
+           <input id="radio2_sociedad_de_la_nieve" type="radio" name="estrellas" value="4">
+           <label for="radio2_sociedad_de_la_nieve">★</label>
+           <input id="radio3_sociedad_de_la_nieve" type="radio" name="estrellas" value="3">
+           <label for="radio3_sociedad_de_la_nieve">★</label>
+           <input id="radio4_sociedad_de_la_nieve" type="radio" name="estrellas" value="2">
+           <label for="radio4_sociedad_de_la_nieve">★</label>
+           <input id="radio5_sociedad_de_la_nieve" type="radio" name="estrellas" value="1">
+           <label for="radio5_sociedad_de_la_nieve">★</label>
+         </p>
+       </form>
+       <a href="infosociedad.html" class="sinopsis" target="_blank"> 
+     <P>
+      "La Sociedad de la Nieve" es un fascinante documental que explora la vida en una remota comunidad de los Andes, donde el ingenio y la solidaridad son fundamentales para sobrevivir en un entorno hostil y aislado.     
+    </P>
+    </a>
+  </div>
+</div>
+<!-- EL NIÑO -->
+<div class="card" id="el_niño_card">
+<img src="elniño.jpeg" alt="poster el niño" class="card_img">
+<ion-icon name="heart-outline" class="card_fav"></ion-icon>
+<div class="card_content2">
+   <h2>EL NIÑO</h2>
+   <form>
+       <p class="clasificacion">
+         <input id="radio1_el_niño" type="radio" name="estrellas" value="5">
+         <label for="radio1_el_niño">★</label>
+         <input id="radio2_el_niño" type="radio" name="estrellas" value="4">
+         <label for="radio2_el_niño">★</label>
+         <input id="radio3_el_niño" type="radio" name="estrellas" value="3">
+         <label for="radio3_el_niño">★</label>
+         <input id="radio4_el_niño" type="radio" name="estrellas" value="2">
+         <label for="radio4_el_niño">★</label>
+         <input id="radio5_el_niño" type="radio" name="estrellas" value="1">
+         <label for="radio5_el_niño">★</label>
+       </p>
+     </form>
+     <a href="infoniño.html" class="sinopsis2" target="_blank"> 
+     <P>
+    "El Niño" es un intenso thriller que sigue la historia de un joven delincuente que se ve envuelto en el peligroso mundo del narcotráfico en el Estrecho de Gibraltar, enfrentando dilemas morales y desafíos emocionales en su búsqueda de redención y libertad.   </P>
+     </a>
+</div>
+</div>
+<!-- EL MAQUINISTA -->
+<div class="card" id="el_maquinista_card">
+  <img src="maquinista.jpeg" alt="poster el maquinista" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>EL NIÑO</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_maquinista" type="radio" name="estrellas" value="5">
+           <label for="radio1_maquinista">★</label>
+           <input id="radio2_maquinista" type="radio" name="estrellas" value="4">
+           <label for="radio2_maquinista">★</label>
+           <input id="radio3_maquinista" type="radio" name="estrellas" value="3">
+           <label for="radio3_maquinista">★</label>
+           <input id="radio4_maquinista" type="radio" name="estrellas" value="2">
+           <label for="radio4_maquinista">★</label>
+           <input id="radio5_maquinista" type="radio" name="estrellas" value="1">
+           <label for="radio5_maquinista">★</label>
+         </p>
+       </form>
+       <a href="infomaquinista.html" class="sinopsis" target="_blank"> 
+     <P>
+      "El Maquinista" es un thriller psicológico que sigue a Trevor Reznik, un operario de maquinaria con insomnio y paranoia, mientras investiga un misterioso accidente.
+     </P>
+       </a>
+  </div>
+  </div>
+  <!-- CELDA 211 -->
+  <div class="card" id="celda_211_card">
+  <img src="celda211.jpeg" alt="poster celda 211" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>CELDA 211</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_celda_211" type="radio" name="estrellas" value="5">
+           <label for="radio1_celda_211">★</label>
+           <input id="radio2_celda_211" type="radio" name="estrellas" value="4">
+           <label for="radio2_celda_211">★</label>
+           <input id="radio3_celda_211" type="radio" name="estrellas" value="3">
+           <label for="radio3_celda_211">★</label>
+           <input id="radio4_celda_211" type="radio" name="estrellas" value="2">
+           <label for="radio4_celda_211">★</label>
+           <input id="radio5_celda_211" type="radio" name="estrellas" value="1">
+           <label for="radio5_celda_211">★</label>
+         </p>
+       </form>
+       <a href="infocelda211.html" class="sinopsis" target="_blank">  
+     <P>
+         Un hombre se encuentra atrapado en medio de un motín en una prisión española mientras intenta proteger su identidad encubierta.
+     </P>
+       </a>
+  </div>
+  </div>
+  <!-- CLUB DE LA LUCHA -->
+  <div class="card" id="club_de_la_lucha_card">
+  <img src="club.jpeg" alt="poster club de la lucha" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>EL CLUB DE LA LUCHA</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_club_de_la_lucha" type="radio" name="estrellas" value="5">
+           <label for="radio1_club_de_la_lucha">★</label>
+           <input id="radio2_club_de_la_lucha" type="radio" name="estrellas" value="4">
+           <label for="radio2_club_de_la_lucha">★</label>
+           <input id="radio3_club_de_la_lucha" type="radio" name="estrellas" value="3">
+           <label for="radio3_club_de_la_lucha">★</label>
+           <input id="radio4_club_de_la_lucha" type="radio" name="estrellas" value="2">
+           <label for="radio4_club_de_la_lucha">★</label>
+           <input id="radio5_club_de_la_lucha" type="radio" name="estrellas" value="1">
+           <label for="radio5_club_de_la_lucha">★</label>
+         </p>
+       </form>
+       <a href="infoclublucha.html" class="sinopsis" target="_blank"> 
+       <P>
+         Un oficinista descontento y un vendedor de jabón misterioso forman un club clandestino de lucha que se convierte en un fenómeno de culto.
+     </P>
+       </a>
+  </div>
+  </div>
+  <!-- PULP FICTION -->
+  <div class="card" id="pulp_fiction_card">
+    <img src="pulp.jpg" alt="poster pulp fiction" class="card_img">
+    <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+    <div class="card_content">
+       <h2>PULP FICTION</h2>
+       <form>
+           <p class="clasificacion">
+             <input id="radio1_pulp_fiction" type="radio" name="estrellas" value="5">
+             <label for="radio1_pulp_fiction">★</label>
+             <input id="radio2_pulp_fiction" type="radio" name="estrellas" value="4">
+             <label for="radio2_pulp_fiction">★</label>
+             <input id="radio3_pulp_fiction" type="radio" name="estrellas" value="3">
+             <label for="radio3_pulp_fiction">★</label>
+             <input id="radio4_pulp_fiction" type="radio" name="estrellas" value="2">
+             <label for="radio4_pulp_fiction">★</label>
+             <input id="radio5_pulp_fiction" type="radio" name="estrellas" value="1">
+             <label for="radio5_pulp_fiction">★</label>
+           </p>
+         </form>
+         <a href="infopulp.html" class="sinopsis" target="_blank"> 
+         <P>
+           Un conjunto de historias entrelazadas sigue las extravagantes y a menudo violentas aventuras de diversos personajes en Los Ángeles.
+       </P>
+         </a>
+    </div>
+  </div>
+  <!-- EL BOLA -->
+  <div class="card" id="el_bola_card">
+  <img src="elbola.jpeg" alt="poster el bola" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>EL BOLA</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_el_bola" type="radio" name="estrellas" value="5">
+           <label for="radio1_el_bola">★</label>
+           <input id="radio2_el_bola" type="radio" name="estrellas" value="4">
+           <label for="radio2_el_bola">★</label>
+           <input id="radio3_el_bola" type="radio" name="estrellas" value="3">
+           <label for="radio3_el_bola">★</label>
+           <input id="radio4_el_bola" type="radio" name="estrellas" value="2">
+           <label for="radio4_el_bola">★</label>
+           <input id="radio5_el_bola" type="radio" name="estrellas" value="1">
+           <label for="radio5_el_bola">★</label>
+         </p>
+       </form>
+       <a href="infoelbola.html" class="sinopsis" target="_blank"> 
+       <P>
+         La vida de un joven se ve afectada cuando entabla amistad con un nuevo compañero de clase que lleva una vida familiar abusiva.
+     </P>
+     </a>
+  </div>
+  </div>
+  <!-- HACIA RUTAS SALVAJES -->
+  <div class="card" id="hacia_rutas_salvajes_card">
+    <img src="rutas.jpeg" alt="poster hacia rutas salvajes" class="card_img">
+    <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+    <div class="card_content">
+       <h2>HACIA RUTAS SALVAJES</h2>
+       <form>
+           <p class="clasificacion">
+             <input id="radio1_hacia_rutas_salvajes" type="radio" name="estrellas" value="5">
+             <label for="radio1_hacia_rutas_salvajes">★</label>
+             <input id="radio2_hacia_rutas_salvajes" type="radio" name="estrellas" value="4">
+             <label for="radio2_hacia_rutas_salvajes">★</label>
+             <input id="radio3_hacia_rutas_salvajes" type="radio" name="estrellas" value="3">
+             <label for="radio3_hacia_rutas_salvajes">★</label>
+             <input id="radio4_hacia_rutas_salvajes" type="radio" name="estrellas" value="2">
+             <label for="radio4_hacia_rutas_salvajes">★</label>
+             <input id="radio5_hacia_rutas_salvajes" type="radio" name="estrellas" value="1">
+             <label for="radio5_hacia_rutas_salvajes">★</label>
+           </p>
+         </form>
+         <a href="inforutassalvajes.html" class="sinopsis" target="_blank"> 
+         <P>
+           Un joven abandona la sociedad moderna para embarcarse en un viaje por América en busca de la verdadera esencia de la libertad.
+       </P>
+         </a>
+    </div>
+  </div>
+  <!-- LA VIDA ES BELLA -->
+  <div class="card" id="la_vida_es_bella_card">
+  <img src="vidabella.jpeg" alt="poster la vida es bella" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content2">
+     <h2>LA VIDA ES BELLA</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_la_vida_es_bella" type="radio" name="estrellas" value="5">
+           <label for="radio1_la_vida_es_bella">★</label>
+           <input id="radio2_la_vida_es_bella" type="radio" name="estrellas" value="4">
+           <label for="radio2_la_vida_es_bella">★</label>
+           <input id="radio3_la_vida_es_bella" type="radio" name="estrellas" value="3">
+           <label for="radio3_la_vida_es_bella">★</label>
+           <input id="radio4_la_vida_es_bella" type="radio" name="estrellas" value="2">
+           <label for="radio4_la_vida_es_bella">★</label>
+           <input id="radio5_la_vida_es_bella" type="radio" name="estrellas" value="1">
+           <label for="radio5_la_vida_es_bella">★</label>
+         </p>
+       </form>
+       <a href="infovidabella.html" class="sinopsis2" target="_blank"> 
+       <P>
+         Un padre usa su creatividad y humor para proteger a su hijo del horror de un campo de concentración durante el Holocausto.
+     </P>
+       </a>
+  </div>
+  </div>
+<!-- LA LLORONA -->
+<div class="card" id="la_llorona_card">
+  <img src="llorona.jpeg" alt="poster la llorona" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content">
+     <h2>LA LLORONA</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_la_llorona" type="radio" name="estrellas" value="5">
+           <label for="radio1_la_llorona">★</label>
+           <input id="radio2_la_llorona" type="radio" name="estrellas" value="4">
+           <label for="radio2_la_llorona">★</label>
+           <input id="radio3_la_llorona" type="radio" name="estrellas" value="3">
+           <label for="radio3_la_llorona">★</label>
+           <input id="radio4_la_llorona" type="radio" name="estrellas" value="2">
+           <label for="radio4_la_llorona">★</label>
+           <input id="radio5_la_llorona" type="radio" name="estrellas" value="1">
+           <label for="radio5_la_llorona">★</label>
+         </p>
+       </form>
+       <a href="infollorona.html" class="sinopsis" target="_blank"> 
+       <P>
+         Una familia se enfrenta al terror de un antiguo espíritu mexicano que los persigue después de que el esposo deshonrara un pacto mortal.
+     </P>
+       </a>
+  </div>
+</div>
+<!-- TOMATES VERDES FRITOS -->
+<div class="card" id="tomates_verdes_fritos_card">
+  <img src="tomates.jpeg" alt="poster tomates verdes fritos" class="card_img">
+  <ion-icon name="heart-outline" class="card_fav"></ion-icon>
+  <div class="card_content2">
+     <h2>TOMATES VERDES FRITOS</h2>
+     <form>
+         <p class="clasificacion">
+           <input id="radio1_tomates_verdes_fritos" type="radio" name="estrellas" value="5">
+           <label for="radio1_tomates_verdes_fritos">★</label>
+           <input id="radio2_tomates_verdes_fritos" type="radio" name="estrellas" value="4">
+           <label for="radio2_tomates_verdes_fritos">★</label>
+           <input id="radio3_tomates_verdes_fritos" type="radio" name="estrellas" value="3">
+           <label for="radio3_tomates_verdes_fritos">★</label>
+           <input id="radio4_tomates_verdes_fritos" type="radio" name="estrellas" value="2">
+           <label for="radio4_tomates_verdes_fritos">★</label>
+           <input id="radio5_tomates_verdes_fritos" type="radio" name="estrellas" value="1">
+           <label for="radio5_tomates_verdes_fritos">★</label>
+         </p>
+       </form>
+       <a href="infotomates.html" class="sinopsis2" target="_blank"> 
+       <P>
+         Una amistad improbable florece entre dos mujeres en el sur de Estados Unidos durante los años de la Gran Depresión.
+     </P>
+       </a>
+  </div>
+</div>
+</div>
+</main>
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+      <h3>Anak<span>Films</span></h3>
+
+      <p class="footer-links">
+          <a href="#inicio">Inicio</a>
+          |
+          <a href="#peliculas">Contenido</a>
+          |
+          <a href="#nosotros">Nosotros</a>
+          |
+          <a href="#contacto">Contacto</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2024 <strong>ANAKFILMS </strong>todos los derechos reservados</p>
+  </div>
+
+  <div class="footer-center">
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Prosperidad</span>
+              Madrid</p>
+      </div>
+
+      <div>
+          <i class="fa fa-phone"></i>
+          <p>+34 644374830</p>
+      </div>
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:sagar00001.co@gmail.com">nicolas@inigo.es</a></p>
+      </div>
+  </div>
+  <div class="footer-right">
+      <p class="footer-company-about">
+          <span>Sobre la plataforma AnakFilms </span>
+          <strong>Nicolás Anakin</strong> es un desarrollador multiplataforma donde junta su pasión por el desarrollo web y las películas para crear y compartir los mejores resúmenes, trailers y reseñas de los aficionados.
+      </p>
+      <div class="footer-icons">
+          <a href="https://www.facebook.com/netflixespana/?locale=es_ES" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/netflixes/?hl=es" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://es.linkedin.com/company/netflix" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://twitter.com/netflixes?lang=es" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCT2UUebPuLke_BShrDh_YEA" target="_blank"><i class="fa fa-youtube"></i></a>
+      </div>
+  </div>
+  <a name="contacto"></a>
+  <a name="nosotros"></a>
+</footer>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i');
+    const dropDownMenu = document.querySelector('.dropdown_menu');
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open');
+        const isOpen = dropDownMenu.classList.contains('Open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+
+    };
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
