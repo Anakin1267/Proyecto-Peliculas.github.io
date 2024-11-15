@@ -1,1 +1,2 @@
-# MyRepository
+# PROYECTO WEB PELICULAS "ANAKFILMS"
+Este es un proyecto realizado en primero de grado ASIR donde la idea era hacer un sitio web básico sin ningun tipo de funcionalidad real, solo `HTMl` y `CSS`. Este sitio web contiene fotos, resúmenes, información de las películas, trailers y la opcion de puntuar mediante un sistema de estrellas tu valoración. Es solo un proyecto de aprendizaje como estudiante y apasionado, nada profesional. 😊
